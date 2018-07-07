@@ -17,16 +17,19 @@ body {
 }
 
 .square:hover {
-	box-shadow: 0px 0px 150px #000000;
-    z-index: 2;
+	/* box-shadow: 0px 0px 150px #000000;
+    z-index: 2; */
     -webkit-transition: all 200ms ease-in;
     -webkit-transform: scale(1.1);
     -ms-transition: all 200ms ease-in;
     -ms-transform: scale(1.1);   
     -moz-transition: all 200ms ease-in;
     -moz-transform: scale(1.1);
-    transition: all 200ms ease-in;
+    transition: all 200ms ease;
     transform: scale(1.1);
+}
+.square {
+	transition: all .15s ease;
 }
 #container {
 	max-width: 600px;
