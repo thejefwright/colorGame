@@ -10,7 +10,7 @@ body {
 	margin: 1.66%;
 	background-color: purple;
 	float: left;
-	border-radius: 15%;
+	border-radius: 50%;
 	transition: background .5s;
 	-webkit-transition: background .5s;
 	-moz-transition: background .5s;
